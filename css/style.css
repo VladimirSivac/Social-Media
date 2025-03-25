@@ -86,7 +86,7 @@ b {
 .btn {
     padding: 14px 16px;
     width: 100%;
-    height: 48px;
+    min-height: 48px;
     border-radius: 16px;
     font-weight: 700;
     font-size: 16px;
@@ -107,9 +107,12 @@ b {
 .item {
     display: inline-block;
     padding: 0px 8px;
+    margin: 0px 8px 8px 0px;
     border-radius: 6px;
     color: #7549ea;
     background-color: rgba(117, 73, 234, 0.2);
+    font-size: 14px;
+    line-height: 171%;
 }
 
 .right-side {
