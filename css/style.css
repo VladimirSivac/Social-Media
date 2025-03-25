@@ -70,6 +70,7 @@ b {
 }
 
 .left-side {
+    width: 30%;
     border-radius: 40px;
     background-color: rgba(224, 235, 254, 0.7);
 }
@@ -103,10 +104,22 @@ b {
     color: #7549ea;
 }
 
+.item {
+    display: inline-block;
+    padding: 0px 8px;
+    border-radius: 6px;
+    color: #7549ea;
+    background-color: rgba(117, 73, 234, 0.2);
+}
+
 .right-side {
     padding: 60px;
 }
 
-.logo {
-    display: inline-block;
+.section {
+    margin-bottom: 24px;
+}
+
+.line {
+    border-bottom: 1px solid #e0eafe;
 }
