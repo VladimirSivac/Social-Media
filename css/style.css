@@ -70,7 +70,7 @@ b {
 }
 
 .left-side {
-    width: 30%;
+    width: 370px;
     border-radius: 40px;
     background-color: rgba(224, 235, 254, 0.7);
 }
@@ -136,7 +136,7 @@ b {
 }
 
 .right-side {
-    width: 70%;
+    width: 830px;
     padding: 60px;
 }
 
