@@ -40,8 +40,8 @@ b {
 .container {
     display: flex;
     margin: 40px;
-    background-color: #fff;
     border-radius: 40px;
+    background-color: #fff;
 }
 
 .title {
@@ -98,10 +98,19 @@ b {
     background: #7549ea;
 }
 
+.btn-purple:hover {
+    background: purple;
+}
+
 .btn-transparent {
     border: 1px solid #7549ea;
     background-color: none;
     color: #7549ea;
+}
+
+.btn-transparent:hover {
+    background-color: #7549ea;
+    color: #fff;
 }
 
 .item {
@@ -115,7 +124,19 @@ b {
     line-height: 171%;
 }
 
+.friends-num {
+    font-weight: 400;
+    font-size: 22px;
+    color: #4a5161;
+}
+
+.friends-subtitle {
+    display: inline-block;
+    margin-right: 16px;
+}
+
 .right-side {
+    width: 70%;
     padding: 60px;
 }
 
@@ -125,4 +146,18 @@ b {
 
 .line {
     border-bottom: 1px solid #e0eafe;
+}
+
+.bold-text {
+    display: inline-block;
+    margin-right: 24px;
+    min-width: 65px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 171%;
+    color: #1f2937;
+}
+
+.bio-text {
+    max-width: 710px;
 }
