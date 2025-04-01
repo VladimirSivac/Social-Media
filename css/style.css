@@ -161,3 +161,16 @@ b {
 .bio-text {
     max-width: 710px;
 }
+
+.list {
+    padding-left: 16px;
+}
+
+ol > li::marker {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.unordered-list {
+    padding-left: 25px;
+}
